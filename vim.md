@@ -10,4 +10,6 @@ Command mode
 - e - jump to end of the next word
 - 10G, 10GG - jump to 10th line
 - :u - undo
-
+- :t. duplicate the line
+- :s/foo/bar/g - replace each 'foo' with 'bar' in current line
+- :%s/foo/bar/g - replace each 'foo' with 'bar' in all lines
